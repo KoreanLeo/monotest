@@ -89,8 +89,7 @@ if (isset($g5_path['path'])) {
 define('G5_ADMIN_URL',      G5_URL.'/'.G5_ADMIN_DIR);
 define('G5_BBS_URL',        G5_URL.'/'.G5_BBS_DIR);
 define('G5_CSS_URL',        G5_URL.'/'.G5_CSS_DIR);
-// define('G5_DATA_URL',       G5_URL.'/'.G5_DATA_DIR);
-define('G5_DATA_URL',       G5_URL.'/../'.G5_DATA_DIR);
+define('G5_DATA_URL',       G5_URL.'/'.G5_DATA_DIR);
 define('G5_IMG_URL',        G5_URL.'/'.G5_IMG_DIR);
 define('G5_JS_URL',         G5_URL.'/'.G5_JS_DIR);
 define('G5_SKIN_URL',       G5_URL.'/'.G5_SKIN_DIR);
@@ -106,8 +105,7 @@ define('G5_MOBILE_URL',     G5_URL.'/'.G5_MOBILE_DIR);
 // PATH 는 서버상에서의 절대경로
 define('G5_ADMIN_PATH',     G5_PATH.'/'.G5_ADMIN_DIR);
 define('G5_BBS_PATH',       G5_PATH.'/'.G5_BBS_DIR);
-// define('G5_DATA_PATH',      G5_PATH.'/'.G5_DATA_DIR);
-define('G5_DATA_PATH',      G5_PATH.'/../'.G5_DATA_DIR);
+define('G5_DATA_PATH',      G5_PATH.'/'.G5_DATA_DIR);
 define('G5_EXTEND_PATH',    G5_PATH.'/'.G5_EXTEND_DIR);
 define('G5_LIB_PATH',       G5_PATH.'/'.G5_LIB_DIR);
 define('G5_PLUGIN_PATH',    G5_PATH.'/'.G5_PLUGIN_DIR);
